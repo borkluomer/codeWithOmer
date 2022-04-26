@@ -1,16 +1,15 @@
 package oopIntro;
 
-import jdk.jfr.Category;
 
 public class Main {
     public static void main(String[] args) {
 
         //creating an example, creating a reference here, instance!!!
-        Product product1 = new Product(); //creating a new product here
-        product1.id =1;
-        product1.name= "Lenovo V14";
-        product1.unitPrice =15000;
-        product1.detail="16 GB Ram";
+        Product product1 = new Product(1,"Lenova V14",15000,"16 Gb Ram");
+        //creating a new product here
+
+        //IN PROGRAMMING LANGUAGE THE RULE NUMBER 1!!!!!!!
+        //DO NOTTTTT REPEAT YOURSELF........
 
         Product product2 = new Product();
         product2.id =2;
@@ -32,6 +31,23 @@ public class Main {
         }
 
         System.out.println( products.length );
+
+        Category category = new Category();
+        category.id=1;
+        category.name="Computer";
+
+        Category category2 = new Category();
+        category.id=2;
+        category.name="Home/Farm";
+
+        ProductManager productManager=new ProductManager();
+        productManager.addToCart(product1);
+
+        productManager.addToCart(product2);
+
+        productManager.addToCart(product3);
+
+
 
 
 
