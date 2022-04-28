@@ -1,4 +1,4 @@
-package PetShop;
+package oopPetShopPorject;
 
 public class main {
     public static void main(String[] args) {

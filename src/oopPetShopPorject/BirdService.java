@@ -1,4 +1,4 @@
-package PetShop;
+package oopPetShopPorject;
 
 public class BirdService {
     public void sleep(bird bird){
