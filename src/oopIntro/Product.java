@@ -4,6 +4,14 @@ public class Product {
 
     //this below is a constructor
     //either you create something inside or not this constructor always will work and run
+
+    //Attribute
+    int id;
+    String name;
+    double unitPrice;
+    String detail;
+
+
     public Product(){
         System.out.println("I am working");
     }
@@ -18,10 +26,6 @@ public class Product {
     }
 
 
-    //Attribute
-    int id;
-    String name;
-    double unitPrice;
-    String detail;
+
 
 }

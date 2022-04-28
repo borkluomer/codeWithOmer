@@ -1,6 +1,8 @@
 package oopIntro;
 
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -25,6 +27,7 @@ public class Main {
 
 
         Product [] products = { product1, product2, product3 };
+
 
         for ( Product product: products ) {
             System.out.println( product.name );
