@@ -33,7 +33,7 @@ public class Main {
         //basically your 20 is gone became 10 and we re-assigned it to 30
 
         int [] numbers1 = new int[]{1,2,3};
-        int [] numbers2 = new int[]{4,5,6}; // this went to garbage collector basically
+        int [] numbers2 = new int[]{4,5,6};
         numbers2=numbers1;
         numbers1[0]=10; // we're asking the index 0 ==10
 
