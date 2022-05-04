@@ -1,4 +1,4 @@
-package WildArmStrongNumbers;
+package WildCoding;
 
 public class armStrongNumbers {
 
