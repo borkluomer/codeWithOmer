@@ -23,15 +23,23 @@ public class Main {
 
         System.out.println(product2.getUnitPriceAfterDiscount());
 
+        Category category5= new Category();
+        category5.setId(5);
+        category5.setName("Drink");
+
+        Category category4= new Category();
+        category4.setId(4);
+        category4.setName("Food");
+
+        System.out.println(category5.getName() + "!");
+        System.out.println(category4.getName() + "!");
+
         System.out.println("---------------------------------");
 
 
         Product product3 = new Product();
 
-
-
-        Product [] products = { product1, product2, product3 };
-
+        Product [] products = { product1, product2 };
 
         for ( Product product: products ) {
             System.out.println( product.getName() );
@@ -40,19 +48,21 @@ public class Main {
         System.out.println( products.length );
 
         Category category = new Category();
-        category.id=1;
-        category.name="Computer";
+        category.getId();
+        category.getName();
 
         Category category2 = new Category();
-        category.id=2;
-        category.name="Home/Farm";
+        category2.getName();
+        category2.getId();
+
+
 
         ProductManager productManager=new ProductManager();
         productManager.addToCart(product1);
 
         productManager.addToCart(product2);
 
-        productManager.addToCart(product3);
+
 
 
 
